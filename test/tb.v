@@ -23,13 +23,13 @@ module tb;
   );
 
    initial begin
-      rst = 1;
+      rst_n = 1;
       ena = 0;
       clk= 0;
       
-      #100 rst = 0;
-      #1000 rst = 1;
-      #100 rst = 0;
+      #100 rst_n = 0;
+      #1000 rst_n = 1;
+      #100 rst_n = 0;
    end
 
    
