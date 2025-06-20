@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+a special type of shift register , the output of the last flip-flop is connected back to the input of the first flip-flop.
 
 ## How to test
 
