@@ -11,11 +11,7 @@ module tt_um_ringcounter (
 
 
     wire [7:0] ring;
-
-    always@(*)
-        begin
-        uo_out <= ring;
-        end  
+    assign uo_out = ring; 
 
     d_ff_wori f0 (.clk(clk) , .rst(rst_n) , .d(ring[1]), .out(ring[0]));
     d_ff_wori f1 (.clk(clk) , .rst(rst_n) , .d(ring[2]), .out(ring[1]));
