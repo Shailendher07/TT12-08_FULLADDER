@@ -33,7 +33,7 @@ COMPILE_ARGS 		+= -I$(SRC_DIR)
 
 # Include the testbench sources:
 VERILOG_SOURCES += $(PWD)/tb.v
-TOPLEVEL = ringcounter_tb
+TOPLEVEL = tb
 
 
 # include cocotb's make rules to take care of the simulator setup
